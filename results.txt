@@ -1,0 +1,62 @@
+C:\siege-windows\siege.exe -c10 -t2m https://localhost:5001/media
+
+Transactions:                   2221 hits
+Availability:                 100.00 %
+Elapsed time:                 119.51 secs
+Data transferred:              16.63 MB
+Response time:                  0.03 secs
+Transaction rate:              18.58 trans/sec
+Throughput:                     0.14 MB/sec
+Concurrency:                    0.53
+Successful transactions:        2221
+Failed transactions:               0
+Longest transaction:            1.98
+Shortest transaction:           0.02
+
+C:\siege-windows\siege.exe -c25 -t2m https://localhost:5001/media
+
+Transactions:                   5546 hits
+Availability:                 100.00 %
+Elapsed time:                 119.44 secs
+Data transferred:              41.51 MB
+Response time:                  0.03 secs
+Transaction rate:              46.43 trans/sec
+Throughput:                     0.35 MB/sec
+Concurrency:                    1.23
+Successful transactions:        5546
+Failed transactions:               0
+Longest transaction:            0.20
+Shortest transaction:           0.02
+
+C:\siege-windows\siege.exe -c50 -t2m https://localhost:5001/media
+
+Transactions:                  10808 hits
+Availability:                 100.00 %
+Elapsed time:                 119.30 secs
+Data transferred:              80.90 MB
+Response time:                  0.05 secs
+Transaction rate:              90.59 trans/sec
+Throughput:                     0.68 MB/sec
+Concurrency:                    4.27
+Successful transactions:       10808
+\Failed transactions:              0
+Longest transaction:            0.33
+Shortest transaction:           0.01
+
+C:\siege-windows\siege.exe -c100 -t2m https://localhost:5001/media
+
+Transactions:                  11678 hits
+Availability:                  96.30 %
+Elapsed time:                 119.67 secs
+Data transferred:              87.62 MB
+Response time:                  0.37 secs
+Transaction rate:              97.59 trans/sec
+Throughput:                     0.73 MB/sec
+Concurrency:                   36.20
+Successful transactions:       11705
+Failed transactions:             449
+Longest transaction:            0.68
+Shortest transaction:           0.02
+
+
+
